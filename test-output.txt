@@ -1,0 +1,14 @@
+test_batch_replay (test_engine.WarehouseTests.test_batch_replay) ... ok
+test_conflicting_batch_rolls_back (test_engine.WarehouseTests.test_conflicting_batch_rolls_back) ... ok
+test_cross_batch_dedup (test_engine.WarehouseTests.test_cross_batch_dedup) ... ok
+test_invalid_numeric (test_engine.WarehouseTests.test_invalid_numeric) ... ok
+test_quarantine (test_engine.WarehouseTests.test_quarantine) ... ok
+test_revision_order (test_engine.WarehouseTests.test_revision_order) ... ok
+test_atomic_report_roundtrip (test_feeds.FeedTests.test_atomic_report_roundtrip) ... ok
+test_network_failure_is_not_synthetic_fallback (test_feeds.FeedTests.test_network_failure_is_not_synthetic_fallback) ... ok
+test_nonfinite_output_rejected (test_feeds.FeedTests.test_nonfinite_output_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.014s
+
+OK

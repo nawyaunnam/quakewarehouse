@@ -1,0 +1,126 @@
+{
+  "mode": "live fetch",
+  "generated_at": "2026-09-22T01:21:20.968561+00:00",
+  "sources": [
+    {
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson",
+      "fetched_at": "2026-09-22T01:21:20.935558+00:00"
+    }
+  ],
+  "result": {
+    "project": "QuakeWarehouse",
+    "source_observations": 1973,
+    "accepted": 1973,
+    "quarantined": 0,
+    "replayed": false,
+    "stored_events": 1973,
+    "source_generated_ms": 1790040044000,
+    "regions": [
+      {
+        "region": "ak",
+        "events": 397,
+        "average_magnitude": 1.902,
+        "max_magnitude": 4.3,
+        "average_depth_km": 41.062
+      },
+      {
+        "region": "nc",
+        "events": 289,
+        "average_magnitude": 1.153,
+        "max_magnitude": 3.52,
+        "average_depth_km": 4.043
+      },
+      {
+        "region": "ci",
+        "events": 271,
+        "average_magnitude": 0.932,
+        "max_magnitude": 2.97,
+        "average_depth_km": 8.552
+      },
+      {
+        "region": "pr",
+        "events": 194,
+        "average_magnitude": 2.238,
+        "max_magnitude": 4.8,
+        "average_depth_km": 13.048
+      },
+      {
+        "region": "us",
+        "events": 169,
+        "average_magnitude": 4.48,
+        "max_magnitude": 6.5,
+        "average_depth_km": 83.739
+      },
+      {
+        "region": "tx",
+        "events": 166,
+        "average_magnitude": 1.466,
+        "max_magnitude": 3.3,
+        "average_depth_km": 6.145
+      },
+      {
+        "region": "av",
+        "events": 134,
+        "average_magnitude": 0.069,
+        "max_magnitude": 1.69,
+        "average_depth_km": 4.865
+      },
+      {
+        "region": "hv",
+        "events": 91,
+        "average_magnitude": 1.999,
+        "max_magnitude": 4.06,
+        "average_depth_km": 19.605
+      },
+      {
+        "region": "uu",
+        "events": 89,
+        "average_magnitude": 1.286,
+        "max_magnitude": 3.39,
+        "average_depth_km": 4.704
+      },
+      {
+        "region": "uw",
+        "events": 83,
+        "average_magnitude": 0.942,
+        "max_magnitude": 3.18,
+        "average_depth_km": 9.665
+      },
+      {
+        "region": "ok",
+        "events": 38,
+        "average_magnitude": 1.214,
+        "max_magnitude": 2.2,
+        "average_depth_km": 6.114
+      },
+      {
+        "region": "nn",
+        "events": 25,
+        "average_magnitude": 1.939,
+        "max_magnitude": 3.79,
+        "average_depth_km": 7.434
+      },
+      {
+        "region": "mb",
+        "events": 19,
+        "average_magnitude": 0.57,
+        "max_magnitude": 1.41,
+        "average_depth_km": 8.578
+      },
+      {
+        "region": "nm",
+        "events": 7,
+        "average_magnitude": 1.817,
+        "max_magnitude": 2.43,
+        "average_depth_km": 8.094
+      },
+      {
+        "region": "se",
+        "events": 1,
+        "average_magnitude": 2.08,
+        "max_magnitude": 2.08,
+        "average_depth_km": 0.91
+      }
+    ]
+  }
+}

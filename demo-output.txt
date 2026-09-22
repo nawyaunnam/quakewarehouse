@@ -1,0 +1,28 @@
+{
+  "first": {
+    "accepted": 2,
+    "rejected": 1,
+    "replayed": false
+  },
+  "retry": {
+    "accepted": 2,
+    "rejected": 1,
+    "replayed": true
+  },
+  "analytics": [
+    {
+      "region": "ci",
+      "events": 1,
+      "average_magnitude": 2.1,
+      "max_magnitude": 2.1,
+      "average_depth_km": 4.0
+    },
+    {
+      "region": "us",
+      "events": 1,
+      "average_magnitude": 3.3,
+      "max_magnitude": 3.3,
+      "average_depth_km": 8.0
+    }
+  ]
+}
