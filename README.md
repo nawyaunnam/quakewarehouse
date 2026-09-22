@@ -4,6 +4,21 @@ An incremental SQLite warehouse for earthquake observations with revision-aware 
 
 **Focus:** Data engineering / incremental ETL / data quality / dimensional SQL · Python 3.11+ · Standard library · Offline demo
 
+## Tech stack
+
+| Layer | Technologies used |
+| --- | --- |
+| Language | Python 3.11+ |
+| Storage | SQLite fact, quarantine, and batch-audit tables |
+| ETL | Revision-aware upserts, content hashes, contract validation |
+| Analytics | SQL group-by aggregates and indexed event timestamps |
+| Live source | USGS GeoJSON earthquake feed |
+| Dashboard | HTML5, CSS, vanilla JavaScript; Python HTTP server |
+| Data transport | urllib.request, verified TLS, JSON, ETag caching |
+| Testing and CI | unittest, GitHub Actions; Python 3.11–3.13 matrix |
+
+The implementation uses the Python standard library; no external Python packages are required.
+
 ## Run in two commands
 
 From this project directory:
@@ -35,8 +50,6 @@ SQLite analytical prototype. Region uses the source network code rather than inf
 
 This is a portfolio implementation, not evidence of production use or business
 impact. Any reported metrics describe only the included demonstration data.
-Built with AI assistance; review, customize, and understand the implementation
-before presenting it as a personal project in an interview.
 
 ## Live public-data workflow
 
