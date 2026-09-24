@@ -2,7 +2,9 @@
 
 An incremental SQLite warehouse for earthquake observations with revision-aware upserts, invalid-record quarantine, batch lineage, and analytical SQL.
 
-**Focus:** Data engineering / incremental ETL / data quality / dimensional SQL · Python 3.11+ · Standard library · Offline demo
+USGS can revise an observation after it first appears. The loader uses the source revision timestamp to decide whether to update a row, records each batch, and quarantines records that fail validation. The result is a small warehouse whose corrections can be inspected.
+
+Start with [revision-order tests](test_engine.py), the [transactional loader](engine.py), or the [captured analysis](live-report.json). Here, `region` means the source network code, not a geographic boundary.
 
 ## Tech stack
 
